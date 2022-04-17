@@ -32,24 +32,25 @@
     width: 60%;
 
 }
-.name{
-    font-size: 1.2 rem;
+.name{ 
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.02px;
-    padding: 0.8 rem;
+    padding: 0.8rem;
     
 }
 .designation{
-    font-size: 0.75 rem;
+    font-size: 1rem;
     text-align: center;
-    padding-bottom: 0.5 rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
 }
 .description{
-    font-size: 0.75 rem;
+    font-size: 0.75rem;
     text-align: center;
-    padding: 1 rem;
+    padding: 1rem;
 
 }
 
@@ -82,22 +83,20 @@ a{
 
 }
 
-.skill-title{
-    font-size: 0.75 rem;
+.skill-title{ 
+    font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 1 rem;
-    padding-bottom: 1 rem;
-    padding-right: 0.5 rem;
-    padding-left: 0.5 rem;
+    padding: 1rem 0.5rem;
 
 }
 
-.skill-name{
-    font-size: 0.65 rem;
-    font-weight: 0.65 rem;
+.skill-name{  
+
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
     text-align: left;
-    padding-bottom: 0.5 rem;
+    padding-bottom: 0.5rem;
 
 }
 
