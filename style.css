@@ -73,13 +73,10 @@ a{
     cursor: pointer;
 }
 .skills{
-    font-size: 0.75 rem;
+    font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 1 rem;
-    padding-bottom: 1 rem;
-    padding-right: 0.5 rem;
-    padding-left: 0.5 rem;
+    padding: 1rem .5rem;
 
 }
 
