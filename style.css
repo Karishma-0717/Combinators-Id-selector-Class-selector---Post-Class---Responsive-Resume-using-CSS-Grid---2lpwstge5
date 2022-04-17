@@ -7,3 +7,160 @@
 }
 
 /* Write CSS code below */
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    width: 90%;
+}
+.left-section{
+    background-color: rgb(218, 175, 124);
+    grid-column: span 1;
+}
+.left-content{
+    
+    padding: 1 rem;
+
+
+}
+.profile-image{
+    /* padding: 1rem; */
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+
+}
+.name{
+    font-size: 1.2 rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8 rem;
+    
+}
+.designation{
+    font-size: 0.75 rem;
+    text-align: center;
+    padding-bottom: 0.5 rem;
+}
+.description{
+    font-size: 0.75 rem;
+    text-align: center;
+    padding: 1 rem;
+
+}
+
+.social-media{
+    display: flex;
+    margin-bottom: 15px;
+    text-align: center;
+}
+personal-details{
+    display: inline;
+}
+.icon{
+    width: 100%;
+}
+
+.icon-contact{
+    margin-top: 5px;
+}
+a{
+    cursor: pointer;
+}
+.skills{
+    font-size: 0.75 rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1 rem;
+    padding-bottom: 1 rem;
+    padding-right: 0.5 rem;
+    padding-left: 0.5 rem;
+
+}
+
+.skill-title{
+    font-size: 0.75 rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1 rem;
+    padding-bottom: 1 rem;
+    padding-right: 0.5 rem;
+    padding-left: 0.5 rem;
+
+}
+
+.skill-name{
+    font-size: 0.65 rem;
+    font-weight: 0.65 rem;
+    text-align: left;
+    padding-bottom: 0.5 rem;
+
+}
+
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+
+}
+
+
+
+
+.right-section{
+    background-color:rgb(100, 33, 163)
+
+}
+.right-main-conten{
+    padding-top: 2 rem;
+    padding-bottom:2 rem ;
+    padding-left: 3 rem ;
+    padding-right:3 rem ;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2 rem;
+    font-weight: 700;
+    padding: 0.5 rem;
+    letter-spacing: 1px;
+}
+
+table{
+    width: 50%;
+    text-align: center;
+    border: 1px white solid;
+    border-collapse: collapse;
+}
+tr,td,th{
+    border: 1px solid white;
+}
+th{
+    background-color: rgb(37, 139, 217);
+    padding: 0px,5px;
+}
+
+.about-section{
+    margin-bottom: 20px;
+}
+.education-section{
+    margin-bottom: 20px;
+
+}
+.experience-section{
+    margin-bottom: 20px;
+
+}
+.project-section{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 673px) {
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
